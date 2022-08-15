@@ -1,0 +1,18 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 1600px;
+	margin: 100px auto;
+}
+
+.break {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%);
+	height: 90%;
+	width: 1px;
+	background-color: rgb(179, 179, 179);
+}

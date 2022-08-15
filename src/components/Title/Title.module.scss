@@ -1,0 +1,15 @@
+.title {
+	position: relative;
+	font-size: 25px;
+	margin-bottom: 30px;
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 2px;
+		width: 70%;
+		background-color: rgb(179, 179, 179);
+	}
+}
